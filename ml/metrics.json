@@ -1,0 +1,591 @@
+{
+  "best_model": "Gradient Boosting",
+  "models": {
+    "Random Forest": {
+      "accuracy": 0.8636,
+      "precision": 0.8113,
+      "recall": 0.7963,
+      "f1_score": 0.8037,
+      "roc_auc": 0.9446,
+      "cv_accuracy_mean": 0.8795,
+      "cv_accuracy_std": 0.0097,
+      "confusion_matrix": [
+        [
+          90,
+          10
+        ],
+        [
+          11,
+          43
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0185
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.4259
+        },
+        {
+          "fpr": 0.01,
+          "tpr": 0.4259
+        },
+        {
+          "fpr": 0.01,
+          "tpr": 0.6111
+        },
+        {
+          "fpr": 0.02,
+          "tpr": 0.6111
+        },
+        {
+          "fpr": 0.02,
+          "tpr": 0.6852
+        },
+        {
+          "fpr": 0.07,
+          "tpr": 0.6852
+        },
+        {
+          "fpr": 0.07,
+          "tpr": 0.7593
+        },
+        {
+          "fpr": 0.08,
+          "tpr": 0.7593
+        },
+        {
+          "fpr": 0.08,
+          "tpr": 0.7963
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 0.7963
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 0.8333
+        },
+        {
+          "fpr": 0.13,
+          "tpr": 0.8333
+        },
+        {
+          "fpr": 0.13,
+          "tpr": 0.8519
+        },
+        {
+          "fpr": 0.14,
+          "tpr": 0.8519
+        },
+        {
+          "fpr": 0.14,
+          "tpr": 0.9259
+        },
+        {
+          "fpr": 0.22,
+          "tpr": 0.9259
+        },
+        {
+          "fpr": 0.22,
+          "tpr": 0.963
+        },
+        {
+          "fpr": 0.41,
+          "tpr": 0.963
+        },
+        {
+          "fpr": 0.41,
+          "tpr": 0.9815
+        },
+        {
+          "fpr": 0.61,
+          "tpr": 0.9815
+        },
+        {
+          "fpr": 0.61,
+          "tpr": 1.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.7078,
+      "precision": 0.5882,
+      "recall": 0.5556,
+      "f1_score": 0.5714,
+      "roc_auc": 0.8263,
+      "cv_accuracy_mean": 0.7899,
+      "cv_accuracy_std": 0.016,
+      "confusion_matrix": [
+        [
+          79,
+          21
+        ],
+        [
+          24,
+          30
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.01,
+          "tpr": 0.037
+        },
+        {
+          "fpr": 0.03,
+          "tpr": 0.0926
+        },
+        {
+          "fpr": 0.04,
+          "tpr": 0.1481
+        },
+        {
+          "fpr": 0.07,
+          "tpr": 0.2407
+        },
+        {
+          "fpr": 0.08,
+          "tpr": 0.3704
+        },
+        {
+          "fpr": 0.1,
+          "tpr": 0.4444
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 0.5185
+        },
+        {
+          "fpr": 0.19,
+          "tpr": 0.537
+        },
+        {
+          "fpr": 0.21,
+          "tpr": 0.5741
+        },
+        {
+          "fpr": 0.24,
+          "tpr": 0.6481
+        },
+        {
+          "fpr": 0.25,
+          "tpr": 0.7222
+        },
+        {
+          "fpr": 0.27,
+          "tpr": 0.7407
+        },
+        {
+          "fpr": 0.28,
+          "tpr": 0.8889
+        },
+        {
+          "fpr": 0.36,
+          "tpr": 0.9074
+        },
+        {
+          "fpr": 0.41,
+          "tpr": 0.9444
+        },
+        {
+          "fpr": 0.78,
+          "tpr": 0.9815
+        }
+      ]
+    },
+    "Support Vector Machine (SVM)": {
+      "accuracy": 0.8377,
+      "precision": 0.7636,
+      "recall": 0.7778,
+      "f1_score": 0.7706,
+      "roc_auc": 0.8974,
+      "cv_accuracy_mean": 0.8485,
+      "cv_accuracy_std": 0.021,
+      "confusion_matrix": [
+        [
+          87,
+          13
+        ],
+        [
+          12,
+          42
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0741
+        },
+        {
+          "fpr": 0.01,
+          "tpr": 0.2407
+        },
+        {
+          "fpr": 0.02,
+          "tpr": 0.3148
+        },
+        {
+          "fpr": 0.03,
+          "tpr": 0.4074
+        },
+        {
+          "fpr": 0.04,
+          "tpr": 0.537
+        },
+        {
+          "fpr": 0.05,
+          "tpr": 0.5556
+        },
+        {
+          "fpr": 0.07,
+          "tpr": 0.6111
+        },
+        {
+          "fpr": 0.08,
+          "tpr": 0.6852
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 0.7222
+        },
+        {
+          "fpr": 0.14,
+          "tpr": 0.7778
+        },
+        {
+          "fpr": 0.19,
+          "tpr": 0.8148
+        },
+        {
+          "fpr": 0.2,
+          "tpr": 0.8333
+        },
+        {
+          "fpr": 0.21,
+          "tpr": 0.8519
+        },
+        {
+          "fpr": 0.26,
+          "tpr": 0.8704
+        },
+        {
+          "fpr": 0.28,
+          "tpr": 0.8889
+        },
+        {
+          "fpr": 0.29,
+          "tpr": 0.9074
+        },
+        {
+          "fpr": 0.43,
+          "tpr": 0.9444
+        },
+        {
+          "fpr": 0.44,
+          "tpr": 0.963
+        },
+        {
+          "fpr": 0.94,
+          "tpr": 0.9815
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.8831,
+      "precision": 0.8462,
+      "recall": 0.8148,
+      "f1_score": 0.8302,
+      "roc_auc": 0.9572,
+      "cv_accuracy_mean": 0.868,
+      "cv_accuracy_std": 0.0297,
+      "confusion_matrix": [
+        [
+          92,
+          8
+        ],
+        [
+          10,
+          44
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.5556
+        },
+        {
+          "fpr": 0.01,
+          "tpr": 0.5741
+        },
+        {
+          "fpr": 0.02,
+          "tpr": 0.7037
+        },
+        {
+          "fpr": 0.03,
+          "tpr": 0.7407
+        },
+        {
+          "fpr": 0.04,
+          "tpr": 0.7593
+        },
+        {
+          "fpr": 0.05,
+          "tpr": 0.7778
+        },
+        {
+          "fpr": 0.06,
+          "tpr": 0.7963
+        },
+        {
+          "fpr": 0.08,
+          "tpr": 0.8148
+        },
+        {
+          "fpr": 0.09,
+          "tpr": 0.8519
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 0.8889
+        },
+        {
+          "fpr": 0.15,
+          "tpr": 0.9444
+        },
+        {
+          "fpr": 0.18,
+          "tpr": 0.963
+        },
+        {
+          "fpr": 0.29,
+          "tpr": 0.9815
+        },
+        {
+          "fpr": 0.55,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 0.8247,
+      "precision": 0.7547,
+      "recall": 0.7407,
+      "f1_score": 0.7477,
+      "roc_auc": 0.9121,
+      "cv_accuracy_mean": 0.8452,
+      "cv_accuracy_std": 0.0251,
+      "confusion_matrix": [
+        [
+          87,
+          13
+        ],
+        [
+          14,
+          40
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.02,
+          "tpr": 0.0741
+        },
+        {
+          "fpr": 0.03,
+          "tpr": 0.5926
+        },
+        {
+          "fpr": 0.1,
+          "tpr": 0.7037
+        },
+        {
+          "fpr": 0.12,
+          "tpr": 0.7037
+        },
+        {
+          "fpr": 0.12,
+          "tpr": 0.7222
+        },
+        {
+          "fpr": 0.13,
+          "tpr": 0.7407
+        },
+        {
+          "fpr": 0.13,
+          "tpr": 0.7593
+        },
+        {
+          "fpr": 0.14,
+          "tpr": 0.8148
+        },
+        {
+          "fpr": 0.15,
+          "tpr": 0.8889
+        },
+        {
+          "fpr": 0.17,
+          "tpr": 0.8889
+        },
+        {
+          "fpr": 0.36,
+          "tpr": 0.9444
+        },
+        {
+          "fpr": 0.4,
+          "tpr": 0.9815
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "Insulin",
+      "importance": 0.3818,
+      "percentage": 38.2
+    },
+    {
+      "feature": "Glucose",
+      "importance": 0.1753,
+      "percentage": 17.5
+    },
+    {
+      "feature": "SkinThickness",
+      "importance": 0.1433,
+      "percentage": 14.3
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.0836,
+      "percentage": 8.4
+    },
+    {
+      "feature": "Age",
+      "importance": 0.069,
+      "percentage": 6.9
+    },
+    {
+      "feature": "DiabetesPedigreeFunction",
+      "importance": 0.0607,
+      "percentage": 6.1
+    },
+    {
+      "feature": "Pregnancies",
+      "importance": 0.0456,
+      "percentage": 4.6
+    },
+    {
+      "feature": "BloodPressure",
+      "importance": 0.0408,
+      "percentage": 4.1
+    }
+  ],
+  "dataset_summary": {
+    "total_records": 768,
+    "diabetic_count": 268,
+    "non_diabetic_count": 500,
+    "diabetic_percentage": 34.9,
+    "features": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age"
+    ],
+    "feature_stats": {
+      "Pregnancies": {
+        "mean": 3.85,
+        "std": 3.37,
+        "min": 0.0,
+        "max": 17.0,
+        "median": 3.0
+      },
+      "Glucose": {
+        "mean": 121.68,
+        "std": 30.46,
+        "min": 44.0,
+        "max": 199.0,
+        "median": 117.0
+      },
+      "BloodPressure": {
+        "mean": 72.39,
+        "std": 12.11,
+        "min": 24.0,
+        "max": 122.0,
+        "median": 72.0
+      },
+      "SkinThickness": {
+        "mean": 29.09,
+        "std": 8.89,
+        "min": 7.0,
+        "max": 99.0,
+        "median": 28.0
+      },
+      "Insulin": {
+        "mean": 141.75,
+        "std": 89.1,
+        "min": 14.0,
+        "max": 846.0,
+        "median": 102.5
+      },
+      "BMI": {
+        "mean": 32.43,
+        "std": 6.88,
+        "min": 18.2,
+        "max": 67.1,
+        "median": 32.05
+      },
+      "DiabetesPedigreeFunction": {
+        "mean": 0.47,
+        "std": 0.33,
+        "min": 0.08,
+        "max": 2.42,
+        "median": 0.37
+      },
+      "Age": {
+        "mean": 33.24,
+        "std": 11.76,
+        "min": 21.0,
+        "max": 81.0,
+        "median": 29.0
+      }
+    }
+  },
+  "training_date": "2026-09-19 09:17:43"
+}
